@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Mi css -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Ayuda</title>
+    <link
+      rel="shortcut icon"
+      href="imgbks/crown-icon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="cabecera">
+      <a href=""
+        ><img src="../imgbks/logonewez.PNG" alt="" width="64" height="64"
+      /></a>
+      <nav class="nav">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a class="nav_link" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="quienes_somos.html">Quienes Somos</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="accesorios.html">Accesorios</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="encargo.html">Encargo</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="ayuda.html">Ayuda</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="nav_icon">
+        <a href=""><img src="../imgbks/searching-bar.png" alt="Buscar" /></a>
+        <a href=""><img src="../imgbks/heart.png" alt="Te gustó" /></a>
+        <a href=""
+          ><img src="../imgbks/shopping-cart.png" alt="Añadir al carro"
+        /></a>
+      </nav>
+    </header>
+    <main>
+      <div class="forma">
+        <form action="">
+          <fieldset>
+            <legend>Cargue su curriculum</legend>
+            <div class="caja">
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre" />
+            </div>
+            <div class="caja">
+              <label for="apellido">Apellido</label>
+              <input type="text" name="apellido" />
+            </div>
+            <div>Hombre</div>
+            <input type="radio" name="sexo" value="hombre" />
+            <div>Mujer</div>
+            <input type="radio" name="sexo" value="Mujer" />
+
+            <div>
+              <label for="mensaje">Mensaje:</label>
+              <textarea name="mensaje" id="" cols="30" rows="10">
+Describa brevemente su experiencia</textarea
+              >
+            </div>
+            <div>Acepta los terminos y condiciones</div>
+            <input type="checkbox" name="acepta" value="1" />
+
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Borrar" />
+          </fieldset>
+        </form>
+      </div>
+    </main>
+    <footer class="descarga">
+      <section>
+        <p>Buscanos en Redes</p>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-tiktok"></i></a>
+        <p>Copyright Newez - 2023. Todos los derechos reservados.</p>
+      </section>
+    </footer>
+  </body>
+</html>
